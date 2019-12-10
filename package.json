@@ -1,0 +1,51 @@
+{
+  "name": "dynamorm",
+  "version": "1.0.1",
+  "description": "DynamORM is an ORM plugin for Amazon's DynamoDB database",
+  "author": "Cloud-Labs",
+  "license": "MIT",
+  "homepage": "https://github.com/Cloud-Labs-Org/dynamorm",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cloud-Labs-Org/dynamorm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cloud-Labs-Org/dynamorm/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "dynamodb",
+    "dynamo",
+    "aws",
+    "orm",
+    "amazon",
+    "dynamorm",
+    "document",
+    "model",
+    "schema",
+    "database",
+    "data",
+    "datastore",
+    "query",
+    "scan",
+    "nosql",
+    "db",
+    "nosql",
+    "store",
+    "document store",
+    "table",
+    "json"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "serverless-dynamodb-local": "^0.2.38",
+    "typescript": "^3.7.2"
+  }
+}
